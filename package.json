@@ -1,5 +1,5 @@
 {
-  "name": "myfavoritefoodweb",
+  "name": "SportsApp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Miharu669/MyFavoriteFoodWeb.git"
+    "url": "git+hhttps://github.com/Miharu669/SportsApp.git"
   },
   "keywords": [
     "food"
@@ -18,10 +18,11 @@
   "author": "me",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Miharu669/MyFavoriteFoodWeb/issues"
+    "url": "https://github.com/Miharu669/SportsApp/issues"
   },
-  "homepage": "https://github.com/Miharu669/MyFavoriteFoodWeb#readme",
+  "homepage": "https://github.com/Miharu669/SportsApp#readme",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "sass": "^1.77.2"
   }
 }
