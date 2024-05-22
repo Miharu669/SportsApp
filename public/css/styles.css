@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(./main.css);
 
 
@@ -14,3 +15,6 @@ body {
       background-image: url(../assets/images/Image20240521142723.jpg);
     }
       }
+=======
+@import "./navbar.css";
+>>>>>>> features/navbar
