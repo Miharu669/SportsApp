@@ -11,24 +11,28 @@ footer {
 }
 
 .footer-content {
-    display: flex;
-    flex-direction: column;
+    display: flexbox;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin:  auto;
     padding: 10px;
 }
 
 .footer-content p {
+    display: flex;
     margin: 5px 0;
     font-size: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-media {
     display: flex;
     gap: 15px;
     margin-top: 10px;
+    align-items: flex-end;
 }
 
 .social-media a img {
@@ -46,5 +50,7 @@ footer {
 
     .footer-content p {
         margin: 0;
+        justify-content: center;
+        align-items: center;
     }
 }
