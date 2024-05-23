@@ -8,29 +8,30 @@ footer {
   bottom: 0;
   left: 0;
 }
-
 .footer-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
   margin: auto;
-  padding: 10px;
+  padding: 10px 30px;
 }
 
 .footer-content p {
   margin: 5px 0;
   font-size: 1rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-media {
   display: flex;
-  gap: 15px;
-  margin-top: 10px;
   align-items: center;
   justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
 }
 
 .social-media a img {
