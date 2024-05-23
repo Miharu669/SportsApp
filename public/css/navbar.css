@@ -1,5 +1,8 @@
 .navbar {
   background-color: black !important;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .navbar-toggler-icon {
@@ -9,4 +12,5 @@
 .nav-item {
   justify-content: space-around;
   margin-right: 70px;
+  display: flex;
 }
