@@ -41,7 +41,7 @@ footer {
 }
 
 /* Responsive */
-@media (min-width: 344px) {
+@media (min-width: 315px) {
   .footer-content {
     flex-direction: row;
     justify-content: space-between;
