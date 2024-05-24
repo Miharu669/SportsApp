@@ -29,3 +29,12 @@
   align-items: center;
   gap: 30px;
 }
+#btn-login {
+  padding: 5px 60px !important;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: hidden;
+  translate: 0 50%;
+  position: relative;
+  display: flexbox !important;
+}
