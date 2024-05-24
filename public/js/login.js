@@ -22,7 +22,6 @@ document
 
 // Verificar si el usuario ya está autenticado al cargar la página
 window.addEventListener("load", function () {
-  this.localStorage.removeItem(loggedIn);
   if (localStorage.getItem("loggedIn")) {
     // Redirigimos a la página teams.html si ya está autenticado
     window.location.href = "../pages/teams.html";
