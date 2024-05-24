@@ -1,6 +1,5 @@
 @import "./navbar.css";
 @import "./styles.css";
-@import url(./styles.css);
 
 .login-box {
   width: 100%;
