@@ -399,3 +399,6 @@ FodyWeavers.xsd
 
 # vscode
 .vscode
+
+#no ignorar bootstrap
+!/node_modules/bootstrap/
