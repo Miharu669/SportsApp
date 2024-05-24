@@ -8,20 +8,22 @@
 #title {
   background-color: #ff8000e9;
   color: white;
-
+  border-radius: 16px;
   max-width: 85vh;
   max-height: 50vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   margin-bottom: 50px;
   padding: 30px 0;
   overflow: hidden;
   top: 50%;
   translate: 0 50%;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 
 #title p {
