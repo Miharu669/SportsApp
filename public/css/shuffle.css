@@ -1,0 +1,121 @@
+
+
+  .body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-gr {
+    display: grid;
+    width: 80%;
+    height: 60vh;
+    margin-top: 9%;
+    margin-left: 9%;
+    vertical-align: auto;
+    background-color: #000009;
+
+    /*vertical-padding  */
+    padding: 10px;
+    grid-column-gap: 35px;
+    grid-row-gap: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-template-areas: "grid11 grid21 grid31 grid41"
+    "grid12 grid22 grid32 grid42"
+    "grid13 grid23 grid33 grid43"
+    "grid14 grid24 grid34 grid44";
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-radius: 25px;
+	font-size: 15px;
+  }
+
+  .container-gr > div {
+    border: 1px solid #262424;
+    background-color: blue;
+    text-align: center;
+    color: rgb(112, 183, 244);   
+  }
+  
+  .grid11 {
+    grid-area: grid11;
+  }
+  .grid21 {
+    grid-area: grid21;
+  }
+  .grid31 {
+    grid-area: grid31;
+  }
+  .grid41 {
+    grid-area: grid41;
+  }
+  .grid12 {
+    grid-area: grid12;
+  }
+  .grid22 {
+    grid-area: grid22;
+  }
+  .grid32 {
+    grid-area: grid32;
+  }
+  .grid42 {
+    grid-area: grid42;
+  }
+  .grid13 {
+    grid-area: grid13;
+  }
+  .grid23 {
+    grid-area: grid23;
+  }
+  .grid33 {
+    grid-area: grid33;
+  }
+  .grid43 {
+    grid-area: grid43;
+  }
+  .grid14 {
+    grid-area: grid14;
+  }
+  .grid24 {
+    grid-area: grid24;
+  }
+  .grid34 {
+    grid-area: grid34;
+  }
+  .grid44 {
+    grid-area: grid44;
+  }
+
+  .button_slide {
+    color: #FFF;
+    border: 2px solid #FF8000;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FF8000;
+    background-color: #FF8000;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    border-radius: 25px;
+  }
+
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #020001;
+  }
+
+  #outer {
+    display: grid;
+    width: 250px;
+    margin: 25px auto 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*background-color: #FFF;*/
+    grid-row-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+  }
