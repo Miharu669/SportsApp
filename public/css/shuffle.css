@@ -1,5 +1,4 @@
 
-
   .body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -7,15 +6,16 @@
 .container-gr {
     display: grid;
     width: 80%;
-    height: 60vh;
-    margin-top: 9%;
+    /*height: 60vh;*/
+    margin-top: 5%;
     margin-left: 9%;
     vertical-align: auto;
     background-color: #000009;
+    height: fit-content;
 
     /*vertical-padding  */
     padding: 10px;
-    grid-column-gap: 35px;
+    grid-column-gap: 25px;
     grid-row-gap: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -27,14 +27,15 @@
     grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     border-radius: 25px;
-	font-size: 15px;
+	  font-size: 15px;
   }
 
   .container-gr > div {
     border: 1px solid #262424;
     background-color: blue;
     text-align: center;
-    color: rgb(112, 183, 244);   
+    color: #70b7f4; 
+    height: fit-content;  
   }
   
   .grid11 {
@@ -88,12 +89,11 @@
 
   .button_slide {
     color: #FFF;
-    border: 2px solid #FF8000;
-    border-radius: 0px;
-    padding: 18px 36px;
+    border: 2px solid #FF8000;    
+    padding: 9px 18px;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #FF8000;
@@ -101,7 +101,7 @@
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
-    border-radius: 25px;
+    border-radius: 15px;
   }
 
   .slide_left:hover {
@@ -110,12 +110,26 @@
 
   #outer {
     display: grid;
-    width: 250px;
+    width: 180px;
     margin: 25px auto 0 auto;
     text-align: center;
+    margin-top: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .btn-number {
+    width: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    /*background-color: #FFF;*/
-    grid-row-gap: 10px;
-    grid-template-rows: 1fr 1fr;
+    border-radius: 5px;
+  }
+
+  .team {
+    width: 120px;
+    background-color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
   }
