@@ -1,6 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 
   .body {
 	font-family: 'Roboto', sans-serif;
+}
+
+.main > div{
+background-color: #FF8000;
 }
 
 .container-gr {
@@ -34,8 +41,6 @@
     border: 1px solid #262424;
     background-color: blue;
     text-align: center;
-    color: #70b7f4; 
-    height: fit-content;  
   }
   
   .grid11 {
@@ -127,7 +132,9 @@
   }
 
   .team {
-    width: 120px;
+    /*width: 120px;*/
+    width: 10%vh;
+    height: 40%vw;
     background-color: #FFF;
     margin-top: 10px;
     margin-bottom: 10px;
