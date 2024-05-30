@@ -1,45 +1,47 @@
 aside {
-    background-color: #ff8000;
-    padding: 6vh;
-    width: 20%;
-    height: 100vh;
-    position: fixed;
-    align-content: center;
+  background-color: #ff8000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  align-content: center;
+  margin: 0;
+  padding: 30px;
+  width: 250px;
 }
 form {
-    align-content: center;
-    position:static;
+  align-content: center;
+  position: static;
 }
 
 label {
-    width: 100%;
+  width: 80%;
 }
 
 input[type="text"],
 select {
-    color: black;
-    width: 100%;
-    padding: 1vh;
-    margin-bottom: 3vh;
-    border: 1px solid #dddddd;
-    border-radius: 6px;
+  color: black;
+  width: 100%;
+  padding: 1vh;
+  margin-bottom: 3vh;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
 }
 
 input[type="submit"] {
-    width: 50%;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-left: 6vh;
-    margin-right: 6vh;
-    position: relative;
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 6vh;
+  margin-right: 6vh;
+  position: relative;
 }
 
 input[type="submit"]:hover {
-    background-color: white;
-    color: black;
-    transition: ease-in 0.08s;
+  background-color: white;
+  color: black;
+  transition: ease-in 0.08s;
 }
