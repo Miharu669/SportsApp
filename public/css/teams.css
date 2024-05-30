@@ -45,3 +45,7 @@ input[type="submit"]:hover {
   color: black;
   transition: ease-in 0.08s;
 }
+
+body {
+  max-width: 1200px !important;
+}
