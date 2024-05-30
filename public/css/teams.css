@@ -49,3 +49,29 @@ input[type="submit"]:hover {
 body {
   max-width: 1200px !important;
 }
+
+.gridContainer {
+  @media (min-width: 900px) {
+    grid-template:
+      "navbar navbar" 60px
+      "aside main" auto
+      "footer footer" 60px /
+      250px auto;
+  }
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside {
+  grid-area: main;
+}
+
+.navbar {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: main;
+}
