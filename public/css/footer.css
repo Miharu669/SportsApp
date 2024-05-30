@@ -4,7 +4,8 @@ footer {
   text-align: center;
   padding: 10px 0;
   width: 100%;
-  position: relative;
+  /*position: relative;*/
+  position: absolute;
   bottom: 0;
   left: 0;
 }
@@ -63,11 +64,12 @@ footer {
 
 
 .fixed-bottom_X {
-  position: fixed;
+  /*position: fixed;*/
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1030
+  /*z-index: 1030;*/
 }
 
 .justify-content-end_x {
