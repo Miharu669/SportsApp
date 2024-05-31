@@ -48,4 +48,5 @@ input[type="submit"]:hover {
 
 body {
   max-width: 1200px !important;
+  background-color: black !important;
 }
