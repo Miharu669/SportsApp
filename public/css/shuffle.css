@@ -1,19 +1,19 @@
-
 @import "./navbar.css";
 
- * {
+* {
   box-sizing: border-box;
 }
 
 .body {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*linea adicionales*/
-html, body {
-  margin:0;
-  padding:0;
-  height:100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   background-color: #020001;
 }
 
@@ -23,21 +23,21 @@ html, body {
 }
 
 #contenido {
-  padding-bottom:50px; 
+  padding-bottom: 50px;
   /* este valor debe ser igual o mayor al alto del pie */
 }
 
 #pie {
-  height:50px;
-  line-height:50px;
-  background:#0000;
-  color:white;
-  text-align:center;
-  position:absolute;
-  bottom:0;
-  left:0;
-  width:100%;
-  display:grid;
+  height: 50px;
+  line-height: 50px;
+  background: #0000;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
   grid-template-areas: "footgrid11 footgrid12 footgrid13";
   grid-template-columns: 33% 33% 34%;
 }
@@ -48,7 +48,6 @@ html, body {
 
 .footgrid12 {
   grid-area: footgrid12;
-
 }
 .footgrid13 {
   grid-area: footgrid13;
@@ -64,149 +63,152 @@ html, body {
 }
 /*linea adicionales*/
 
-.main > div{
-background-color: #FF8000;
+.main > div {
+  background-color: #ff8000;
 }
 
 .container-gr {
-  padding-bottom:50px; 
+  padding-bottom: 50px;
 
-    display: grid;
-    width: 80%;
-    /*height: 60vh;*/
-    margin-top: 5%;
-    margin-left: 9%;
-    vertical-align: auto;
-    background-color: #31313b;
-    /* height: fit-content;  */
-    height:fit-content;
+  display: grid;
+  width: 80%;
+  /*height: 60vh;*/
+  margin-top: 5%;
+  margin-left: 9%;
+  vertical-align: auto;
+  background-color: #31313b;
+  /* height: fit-content;  */
+  height: fit-content;
 
-      /*vertical-padding  */
-    padding: 10px;
-    grid-column-gap: 25px;
-    grid-row-gap: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+  /*vertical-padding  */
+  padding: 10px;
+  grid-column-gap: 25px;
+  grid-row-gap: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 
-    grid-template-areas: "grid11 grid21 grid31 grid41"
+  grid-template-areas:
+    "grid11 grid21 grid31 grid41"
     "grid12 grid22 grid32 grid42"
     "grid13 grid23 grid33 grid43"
     "grid14 grid24 grid34 grid44";
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 50px 50px 50px 50px;
-    border-radius: 25px;
-	  font-size: 15px;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 50px 50px 50px 50px;
+  border-radius: 25px;
+  font-size: 15px;
 
-    /* flex-wrap: wrap; */
-    overflow-y: scroll;  
-    white-space: nowrap;  
-    grid-auto-flow: column;
-   }
+  /* flex-wrap: wrap; */
+  overflow-y: scroll;
+  white-space: nowrap;
+  grid-auto-flow: column;
+}
 
-  .container-gr > div {
+.container-gr > div {
+  border: 1px solid #262424;
+  background-color: blue;
+  color: #fff;
+}
 
-    border: 1px solid #262424;
-    background-color: blue;
-    color: #fff;
-  }
-  
-  .grid11 {
-    grid-area: grid11;
-  }
+.grid11 {
+  grid-area: grid11;
+}
 
-  .grid21 {
-    grid-area: grid21;
+.grid21 {
+  grid-area: grid21;
+}
+.grid31 {
+  grid-area: grid31;
+}
+.grid41 {
+  grid-area: grid41;
+}
+.grid12 {
+  grid-area: grid12;
+}
+.grid22 {
+  grid-area: grid22;
+}
+.grid32 {
+  grid-area: grid32;
+}
+.grid42 {
+  grid-area: grid42;
+}
+.grid13 {
+  grid-area: grid13;
+}
+.grid23 {
+  grid-area: grid23;
+}
+.grid33 {
+  grid-area: grid33;
+}
+.grid43 {
+  grid-area: grid43;
+}
+.grid14 {
+  grid-area: grid14;
+}
+.grid24 {
+  grid-area: grid24;
+}
+.grid34 {
+  grid-area: grid34;
+}
+.grid44 {
+  grid-area: grid44;
+}
 
-  }
-  .grid31 {
-    grid-area: grid31;
+.button_slide {
+  color: #fff;
+  border: 2px solid #ff8000;
+  padding: 9px 18px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #ff8000;
+  background-color: #ff8000;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  border-radius: 15px;
+}
 
-  }
-  .grid41 {
-    grid-area: grid41;
-  }
-  .grid12 {
-    grid-area: grid12;
-  }
-  .grid22 {
-    grid-area: grid22;
-  }
-  .grid32 {
-    grid-area: grid32;
-  }
-  .grid42 {
-    grid-area: grid42;
-  }
-  .grid13 {
-    grid-area: grid13;
-  }
-  .grid23 {
-    grid-area: grid23;
-  }
-  .grid33 {
-    grid-area: grid33;
-  }
-  .grid43 {
-    grid-area: grid43;
-  }
-  .grid14 {
-    grid-area: grid14;
-  }
-  .grid24 {
-    grid-area: grid24;
-  }
-  .grid34 {
-    grid-area: grid34;
-  }
-  .grid44 {
-    grid-area: grid44;
-  }
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #020001;
+}
 
-  .button_slide {
-    color: #fff;
-    border: 2px solid #FF8000;    
-    padding: 9px 18px;
-    display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 12px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #FF8000;
-    background-color: #FF8000;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-    border-radius: 15px;
-  }
+#outer {
+  display: grid;
+  width: 180px;
+  margin: 25px auto 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  grid-row-gap: 5px;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr 1fr;
+}
 
-  .slide_left:hover {
-    box-shadow: inset 0 0 0 50px #020001;
-  }
+.btn-number {
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 
-  #outer {
-    display: grid;
-    width: 180px;
-    margin: 25px auto 0 auto;
-    text-align: center;
-    margin-top: 30px;
-    grid-row-gap: 5px;
-    grid-template-columns: 2fr;
-    grid-template-rows: 1fr 1fr;
-  }
+.team {
+  /*width: 120px;*/
+  width: 10%vh;
+  height: 40%vw;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 
-  .btn-number {
-    width: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-
-  .team {
-    /*width: 120px;*/
-    width: 10%vh;
-    height: 40%vw;
-    background-color: #fff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
+input {
+  margin: auto;
+  padding: auto;
+}
