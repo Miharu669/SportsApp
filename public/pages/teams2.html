@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsApp</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/teams2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5" href="#">CodersLeague</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/public/pages/login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/public/pages/shuffle.html">Classification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Playoff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Winner</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="pagina">
+
+        <aside>
+            <form action="/submit" method="post">
+                <label for="teamName"></label>
+                <input type="text" id="TeamName" placeholder="Team" name="TeamName" required>
+                <label for="Flag"></label>
+                <select id="flags" name="flags" required>
+                    <option value="" disabled selected>Flag</option>
+                    <option value="españa">🇪🇸 España</option>
+                    <option value="palestina">🇵🇸 Palestina</option>
+                    <option value="reinounido">🇬🇧 Reino Unido</option>
+                    <option value="peru">🇵🇪 Peru</option>
+                    <option value="jamaica">🇯🇲 Jamaica</option>
+                    <option value="lgbt">🏳️‍🌈 LGBT</option>
+                    <option value="alemania">🇩🇪 Alemania</option>
+                    <option value="islandia">🇮🇸 Islandia</option>
+                    <option value="andorra">🇦🇩 Andorra</option>
+                    <option value="nuevazelanda">🇳🇿 Nueva Zelanda</option>
+                    <option value="usa">🇺🇸 USA</option>
+                    <option value="sudafrica">🇿🇦 Sudáfrica</option>
+                    <option value="suiza">🇨🇭 Suiza</option>
+                    <option value="butan">🇧🇹 Bután</option>
+                    <option value="nuevaguinea">🇵🇬 Nueva Guinea</option>
+                    <option value="banderaPirata">🏴‍☠️ Pirata</option>
+    
+                </select>
+                <input type="submit" value="Register">
+            </form>
+        </aside>
+
+        <div id="cabecera">LOGO</div>
+        <div id="contenido">
+            <div>
+                1
+            </div>
+
+            <div id="outer">
+                <div class="button_slide slide_left">CLASSIFICATION</div>
+                <div class="button_slide slide_left">SAVE AND PLAYOFF</div>
+            </div>
+        </div>
+
+        <div id="pie">
+            <div class="footgrid11"></div>
+            <div class="footgrid12">Codersleague &copy;</div>
+            <div class="footgrid13">
+                <a href="https://www.instagram.com/"><img src="/public/assets/icons/instagram.svg" alt="Instagram"></a>
+                <a href="https://www.facebook.com/"><img src="/public/assets/icons/facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com/"><img src="/public/assets/icons/twitter-x.svg" alt="TwitterX"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

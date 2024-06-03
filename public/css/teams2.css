@@ -1,0 +1,122 @@
+@import "./navbar.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*linea adicionales*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #a49b9f;
+}
+
+#pagina {
+  position: relative;
+  min-height: 100%;
+}
+
+#contenido {
+  padding-bottom: 50px;
+  /* este valor debe ser igual o mayor al alto del pie */
+}
+
+#pie {
+  height: 50px;
+  line-height: 50px;
+  background: #0000;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "footgrid11 footgrid12 footgrid13";
+  grid-template-columns: 33% 33% 34%;
+}
+
+.footgrid11 {
+  grid-area: footgrid11;
+}
+
+.footgrid12 {
+  grid-area: footgrid12;
+}
+.footgrid13 {
+  grid-area: footgrid13;
+  position: absolute;
+  right: 0;
+}
+
+.footgrid13 a img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
+  width: 26px;
+  height: 26px;
+}
+/*linea adicionales*/
+
+.main > div {
+  background-color: #ff8000;
+}
+
+.button_slide {
+  color: #fff;
+  border: 2px solid #ff8000;
+  padding: 9px 18px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #ff8000;
+  background-color: #ff8000;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  border-radius: 15px;
+}
+
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #020001;
+}
+
+#outer {
+  display: grid;
+  width: 180px;
+  margin: 25px auto 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  grid-row-gap: 5px;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.btn-number {
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.team {
+  /*width: 120px;*/
+  width: 10%vh;
+  height: 40%vw;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+input {
+  margin: auto;
+  padding: auto;
+}
