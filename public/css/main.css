@@ -24,14 +24,14 @@
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
-}
 
-#title p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 6vw;
-  font-weight: bold;
-  line-height: 1;
-  text-align: center;
+  p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+  }
 }
 
 .col {
