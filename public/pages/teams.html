@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/public/css/bootstrap.min.css">
     <link rel="stylesheet" href="/public/css/teams.css">
     <link rel="stylesheet" href="/public/css/tabla.css">
-
+    <script src="/public/js/teams.js"></script>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -46,11 +46,12 @@
         </div>
     </nav>
     <aside>
-        <form action="/submit" method="post">
-            <label for="teamName"></label>
+        <!-- <form action="/public/pages/teams.html" method="get"> -->
+            <!-- <form method="get"> -->
+            <label for="TeamName"></label>
             <input type="text" id="TeamName" placeholder="Team" name="TeamName" required>
-            <label for="Flag"></label>
-            <select id="flags" name="flags" required>
+            <!-- <label for="flags"></label> -->
+            <select id="Flags" name="flags" required>
                 <option value="" disabled selected>Flag</option>
                 <option value="españa">🇪🇸 España</option>
                 <option value="palestina">🇵🇸 Palestina</option>
@@ -70,13 +71,16 @@
                 <option value="banderaPirata">🏴‍☠️ Pirata</option>
 
             </select>
-            <input type="submit" value="Register">
-        </form>
+            <input type="submit" value="Register" onclick="ingresaDatos();">
+        <!-- </form> -->
     </aside>
     
     
     <main class="content">
+        
         <div class="col-6 col-s-9 menu">
+            <div><h3 claa="TituloH3">Equipos Regristrados :</h3>
+            </div>
             <div class="cuatroJunto">
                 <ul class="fourrectangulares">
                     <li>1</li>

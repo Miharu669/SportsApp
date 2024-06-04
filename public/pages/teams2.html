@@ -10,91 +10,126 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand me-5" href="#">CodersLeague</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/public/pages/login.html">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/public/pages/shuffle.html">Classification</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Playoff</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Winner</a>
-                    </li>
-                </ul>
+    <div class="contenedor">
+		<header>
+<!-- 			<div class="logo">
+				<img src="./images/logo1_faq.jpg" width="70" height="50"   alt="">
+				<a href="#">Ted Salvador</a>
+			</div>
+
+			<nav>
+				<a href="#Desarrollo">Desarrollo Web Front End</a>
+				<a href="#Conceptos">Conceptos HTML</a>
+				<a href="#CSS">Css</a>
+				<a href="#JavaScript">JavaScript</a>
+				<a href="#DesarrolloBack">Desarrollo Web Back End</a>
+			</nav> -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-5" href="#">CodersLeague</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/public/pages/login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class=" nav-link active" href="#">Teams</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/public/pages/shuffle.html">Classification</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><!--Playoff--></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><!--Winner--></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+		</header>
+
+		<aside>
+			<div><h3>Documentation Menu</h3></div>
+			<!-- <div class="widget">
+				<ul>
+				  <a href="#Desarrollo">Desarrollo web Front-end</a>
+				</ul>
+			</div> -->
+            <div class="widget">
+                <form action="/submit" method="post">
+                    <label for="teamName"></label>
+                    <input type="text" id="TeamName" placeholder="Team" name="TeamName" required>
+                    <label for="Flag"></label>
+                    <select id="flags" name="flags" required>
+                        <option value="" disabled selected>Flag</option>
+                        <option value="españa">🇪🇸 España</option>
+                        <option value="palestina">🇵🇸 Palestina</option>
+                        <option value="reinounido">🇬🇧 Reino Unido</option>
+                        <option value="peru">🇵🇪 Peru</option>
+                        <option value="jamaica">🇯🇲 Jamaica</option>
+                        <option value="lgbt">🏳️‍🌈 LGBT</option>
+                        <option value="alemania">🇩🇪 Alemania</option>
+                        <option value="islandia">🇮🇸 Islandia</option>
+                        <option value="andorra">🇦🇩 Andorra</option>
+                        <option value="nuevazelanda">🇳🇿 Nueva Zelanda</option>
+                        <option value="usa">🇺🇸 USA</option>
+                        <option value="sudafrica">🇿🇦 Sudáfrica</option>
+                        <option value="suiza">🇨🇭 Suiza</option>
+                        <option value="butan">🇧🇹 Bután</option>
+                        <option value="nuevaguinea">🇵🇬 Nueva Guinea</option>
+                        <option value="banderaPirata">🏴‍☠️ Pirata</option>
+        
+                    </select>
+                    <input type="submit" value="Register">
+                </form>
             </div>
-        </div>
-    </nav>
+		</aside>
 
-    <div id="pagina">
+		<section class="main">
+			<article id="Desarrollo">
+				<h2 class="titulo">Desarrollo web Front-end.</h2>
+				<p>
+					El <b>desarrollo web <i>front-end</i></b>&#160;se refiere a la práctica de construir y diseñar la interfaz de usuario de un sitio web o aplicación. 
+					Esto implica trabajar con tecnologías del lado del cliente, como HTML, CSS y JavaScript, para crear páginas web interactivas y visualmente atractivas.
+				</p>
+				<p> La expresión "front-end" tiene su origen en el principio de separación de preocupaciones, el cual aboga por establecer una clara distinción entre 
+					la interfaz de usuario (front-end) y la lógica del servidor (back-end) en una aplicación. Esta separación facilita la creación de un código más modular y 
+					fácil de mantener. De esta manera, el desarrollo front-end se centra en la parte del software con la que los usuarios interactúan directamente. 
+					Los desarrolladores de este ámbito son responsables de crear experiencias de usuario atractivas y funcionales, asegurándose de que los usuarios puedan 
+					navegar y utilizar una aplicación de manera efectiva. Esto implica trabajar en el diseño, la presentación y la interactividad de las páginas web y aplicaciones.
+				</p>	
+				
+				<a href="#top">Back to Top</a>
+			</article>
+		</section>
 
-        <aside>
-            <form action="/submit" method="post">
-                <label for="teamName"></label>
-                <input type="text" id="TeamName" placeholder="Team" name="TeamName" required>
-                <label for="Flag"></label>
-                <select id="flags" name="flags" required>
-                    <option value="" disabled selected>Flag</option>
-                    <option value="españa">🇪🇸 España</option>
-                    <option value="palestina">🇵🇸 Palestina</option>
-                    <option value="reinounido">🇬🇧 Reino Unido</option>
-                    <option value="peru">🇵🇪 Peru</option>
-                    <option value="jamaica">🇯🇲 Jamaica</option>
-                    <option value="lgbt">🏳️‍🌈 LGBT</option>
-                    <option value="alemania">🇩🇪 Alemania</option>
-                    <option value="islandia">🇮🇸 Islandia</option>
-                    <option value="andorra">🇦🇩 Andorra</option>
-                    <option value="nuevazelanda">🇳🇿 Nueva Zelanda</option>
-                    <option value="usa">🇺🇸 USA</option>
-                    <option value="sudafrica">🇿🇦 Sudáfrica</option>
-                    <option value="suiza">🇨🇭 Suiza</option>
-                    <option value="butan">🇧🇹 Bután</option>
-                    <option value="nuevaguinea">🇵🇬 Nueva Guinea</option>
-                    <option value="banderaPirata">🏴‍☠️ Pirata</option>
-    
-                </select>
-                <input type="submit" value="Register">
-            </form>
-        </aside>
+		<footer>
+<!-- 			<section class="links">
+				<a href="#">Inicio</a>
+				<a href="#">Blog</a>
+				<a href="#">Proyectos</a>
+				<a href="#">Contacto</a>
+			</section> -->
+            <div class="derechos">
+				<a>- 2024 Ted Salvador &copy; -</a>
+			</div>
+			<div class="social">
+				<a href="#">FB</a>
+				<a href="#">TW</a>
+			</div>
+		</footer>
+	</div>
 
-        <div id="cabecera">LOGO</div>
-        <div id="contenido">
-            <div>
-                1
-            </div>
-
-            <div id="outer">
-                <div class="button_slide slide_left">CLASSIFICATION</div>
-                <div class="button_slide slide_left">SAVE AND PLAYOFF</div>
-            </div>
-        </div>
-
-        <div id="pie">
-            <div class="footgrid11"></div>
-            <div class="footgrid12">Codersleague &copy;</div>
-            <div class="footgrid13">
-                <a href="https://www.instagram.com/"><img src="/public/assets/icons/instagram.svg" alt="Instagram"></a>
-                <a href="https://www.facebook.com/"><img src="/public/assets/icons/facebook.svg" alt="Facebook"></a>
-                <a href="https://twitter.com/"><img src="/public/assets/icons/twitter-x.svg" alt="TwitterX"></a>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
