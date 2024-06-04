@@ -3,19 +3,19 @@
 
 aside {
   background-color: #ff8000;
-  position: fixed;
+  position: absolute;
   height: 100%;
   overflow: auto;
   align-content: center;
   margin: 0;
   padding: 30px;
-  width: 250px;
+  width: 300px;
 }
 
-form {
+/* form {
   align-content: center;
   position: static;
-}
+} */
 
 label {
   width: 50%;
@@ -24,7 +24,7 @@ label {
 input[type="text"],
 select {
   color: black;
-  width: 100%;
+  width: 90%;
   padding: 1vh;
   margin-bottom: 3vh; 
   border: 1px solid #dddddd;
