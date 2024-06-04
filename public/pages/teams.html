@@ -46,11 +46,10 @@
         </div>
     </nav>
     <aside>
-        <!-- <form action="/public/pages/teams.html" method="get"> -->
-            <!-- <form method="get"> -->
+        <!-- <form action="/submit" method="post"> -->
             <label for="TeamName"></label>
             <input type="text" id="TeamName" placeholder="Team" name="TeamName" required>
-            <!-- <label for="flags"></label> -->
+            <label for="flags"></label>
             <select id="Flags" name="flags" required>
                 <option value="" disabled selected>Flag</option>
                 <option value="🇪🇸">🇪🇸 España</option>
@@ -69,18 +68,15 @@
                 <option value="🇧🇹">🇧🇹 Bután</option>
                 <option value="🇵🇬">🇵🇬 Nueva Guinea</option>
                 <option value="🏴‍☠️">🏴‍☠️ Pirata</option>
-
             </select>
-            <input type="submit" value="Register" onclick="ingresaDatos();">
+            <input type="submit" value="Register" id="Register" onclick="ingresaDatos();">
         <!-- </form> -->
     </aside>
     
     
     <main class="content">
-        
         <div class="col-6 col-s-9 menu">
-            <div><h3 claa="TituloH3">Equipos Regristrados :</h3>
-            </div>
+            <!-- <div><h3 claa="TituloH3">Equipos Registrados :</h3> </div> -->
             <div class="cuatroJunto">
                 <ul class="fourrectangulares">
                     <li id="Eqi_1">1</li>

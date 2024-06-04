@@ -68,6 +68,11 @@ function local2json(name){
   function viewteam (posTeam, codFlag, nameTeam) {
      // document.getElementById("demo").innerHTML = collection[1].innerHTML;
   const collection = document.getElementsByTagName("li");
+  const btnRegister = document.getElementById("Register");
   // alert(collection[posTeam].innerHTML);
-  document.getElementsByTagName("li")[posTeam].innerHTML = codFlag + ' - ' + nameTeam; /* "Hello World!";*/
+  document.getElementsByTagName("li")[posTeam].innerHTML = codFlag + ' - ' + nameTeam;
+  if (posTeam == 21) {
+    btnRegister.disabled = true;
+    btnRegister.value="Completed";
+  }
     }

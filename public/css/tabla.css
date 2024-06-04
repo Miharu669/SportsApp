@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 25%;
+    margin-top: 20px;
   }
   
   [class*="col-"] {
@@ -27,20 +28,19 @@
 .cuatroJunto{
     font-weight: bold;
     text-align: center;
-   
 }  
+
 .fourrectangulares {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-
 }
+
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
  
-
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
