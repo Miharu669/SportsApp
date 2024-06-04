@@ -1,6 +1,8 @@
-@import url(./footer.scss);
-@import "./navbar.scss";
-@import "./main.scss";
+@use "main";
+@use "navbar";
+@use "footer";
+
+
 @media only screen and (max-width: 767px) {
   body {
     background-image: url(../assets/images/Image20240521142723.jpg);
