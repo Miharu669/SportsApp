@@ -44,13 +44,30 @@ function local2json(name){
 
   database.set({Equipo: + nameTeam , edad: + flagteam});
   alert("Equipo registrado..!! Gracias");
-  
-  // document.getElementById("demo").innerHTML = collection[1].innerHTML;
-  const collection = document.getElementsByTagName("li");
-  alert(collection[6].innerHTML);
-  document.getElementsByTagName("li")[21].innerHTML = cod + ' - ' + nameTeam; /* "Hello World!";*/
- 
+/*   FirstItemlibre("li");
+  viewteam(6, cod, nameTeam);  */
+  viewteam(FirstItemlibre("li"),cod, nameTeam);
   console.log(database.get());
   // return true;
   // console.log(database.get());
   }
+
+  function FirstItemlibre (strItem){
+    // const arrayTags = document.getElementsByTagName("li");
+    const arrayTags = document.getElementsByTagName(strItem);
+    //para caso tag li , desde 6 al 21, obtener siguiente disponible //
+    for (let i = 6; i < 22; i++) {
+      const element = arrayTags[i].innerHTML;
+      if (element.length === 1 || element.length === 2) { 
+           return i;
+           break;
+      }
+    }
+  }
+
+  function viewteam (posTeam, codFlag, nameTeam) {
+     // document.getElementById("demo").innerHTML = collection[1].innerHTML;
+  const collection = document.getElementsByTagName("li");
+  // alert(collection[posTeam].innerHTML);
+  document.getElementsByTagName("li")[posTeam].innerHTML = codFlag + ' - ' + nameTeam; /* "Hello World!";*/
+    }
