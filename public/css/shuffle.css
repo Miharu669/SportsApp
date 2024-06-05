@@ -27,27 +27,7 @@ html, body {
   /* este valor debe ser igual o mayor al alto del pie */
 }
 
-.footgrid11 {
-  grid-area: footgrid11;
-}
 
-.footgrid12 {
-  grid-area: footgrid12;
-
-}
-.footgrid13 {
-  grid-area: footgrid13;
-  position: absolute;
-  right: 0;
-}
-
-.footgrid13 a img {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
-    contrast(100%);
-  width: 26px;
-  height: 26px;
-}
-/*linea adicionales*/
 
 /* .main > div{
 background-color: #FF8000;
