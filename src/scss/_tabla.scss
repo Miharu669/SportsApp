@@ -1,53 +1,50 @@
-/* main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 25%;
-    margin-top: 20px;
-  }
-  
-  [class*="col-"] {
-    margin-top: 5%;
+.teamscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+[class*="col-"] {
+  margin-top: 10%;
+}
+
+.menu {
+  ul {
+    background-color: #0000ff;
+    border-radius: 30px;
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 20px;
   }
 
-  .menu ul {
-    background-color: #0000ff;
-    border-radius: 20px;
-    list-style-type: none;
-    margin: 5px auto;
-    padding: 10px;
-  }
- 
-  .menu li {
+  li {
     border-radius: 30px;
     font-size: larger;
     background-color: #ffffff;
     color: #000000;
   }
- 
-.cuatroJunto{
-    font-weight: bold;
-    text-align: center;
-}  
-
-.fourrectangulares {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
 }
 
-  /* For mobile phones: */
-/*
-/[class*="col-
-{
+.cuatroJunto {
+  font-weight: bold;
+  text-align: center;
+}
+
+.fourrectangulares {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  /*
-  /.c
-  {
+  .col-1 {
     width: 8.33%;
   }
   .col-2 {

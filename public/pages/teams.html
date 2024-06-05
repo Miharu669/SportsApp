@@ -9,9 +9,7 @@
 
 
     <link rel="stylesheet" href="/public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/css/teams.css">
-    <link rel="stylesheet" href="/public/css/tabla.css">
-    <script src="/public/js/teams.js"></script>
+    <link rel="stylesheet" href="/public/css/styles.css">
 
 <body>
 
@@ -47,11 +45,11 @@
         </div>
     </nav>
     <aside>
-        <form>
-            <label for="TeamName"></label>
-            <input type="text" id="TeamName" placeholder="Team" name="TeamName" required maxlength="15">
-            <label for="Flags"></label>
-            <select id="Flags" name="Flags" required>
+        <form class="form2" action="/submit" method="post">
+            <label for="teamName"></label>
+            <input type="text" id="TeamName" placeholder="Team" name="TeamName" required>
+            <label for="Flag"></label>
+            <select id="flags" name="flags" required>
                 <option value="" disabled selected>Flag</option>
                 <option value="🇪🇸">🇪🇸 España</option>
                 <option value="🇵🇸">🇵🇸 Palestina</option>
@@ -76,53 +74,57 @@
 
 
     <main class="content">
-        <div class="col-6 col-s-9 menu">
-            <!-- <div><h3 claa="TituloH3">Equipos Registrados :</h3> </div> -->
-            <div class="cuatroJunto">
-                <ul class="fourrectangulares">
-                    <li id="Eqi_1">1</li>
-                    <li id="Eqi_2">2</li>
-                    <li id="Eqi_3">3</li>
-                    <li id="Eqi_4">4</li>
-                </ul>
-            </div>
-            <div class="cuatroJunto">
-                <ul class="fourrectangulares">
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                    <li>8</li>
-                </ul>
-            </div>
-            <div class="cuatroJunto">
-                <ul class="fourrectangulares">
-                    <li>9</li>
-                    <li>10</li>
-                    <li>11</li>
-                    <li>12</li>
-                </ul>
-            </div>
-            <div class="cuatroJunto">
-                <ul class="fourrectangulares">
-                    <li>13</li>
-                    <li>14</li>
-                    <li>15</li>
-                    <li>16</li>
-                </ul>
-            </div>
-    </main>
-    <footer class="fixed-bottom">
-        <div class="footer-content">
-            <p>Codersleague ©</p>
-            <div class="social-media justify-content-end">
-                <a href="https://www.instagram.com/"><img src="/public/assets/icons/instagram.svg" alt="Instagram"></a>
-                <a href="https://www.facebook.com/"><img src="/public/assets/icons/facebook.svg" alt="Facebook"></a>
-                <a href="https://twitter.com/"><img src="/public/assets/icons/twitter-x.svg" alt="TwitterX"></a>
-            </div>
-        </div>
-    </footer>
 
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <main class="teamsContainer">
+            <div class="col-6 col-s-9 menu">
+                <!-- <div><h3 claa="TituloH3">Equipos Registrados :</h3> </div> -->
+                <div class="cuatroJunto">
+                    <ul class="fourrectangulares">
+                        <li id="Eqi_1">1</li>
+                        <li id="Eqi_2">2</li>
+                        <li id="Eqi_3">3</li>
+                        <li id="Eqi_4">4</li>
+                    </ul>
+                </div>
+                <div class="cuatroJunto">
+                    <ul class="fourrectangulares">
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                    </ul>
+                </div>
+                <div class="cuatroJunto">
+                    <ul class="fourrectangulares">
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                    </ul>
+                </div>
+                <div class="cuatroJunto">
+                    <ul class="fourrectangulares">
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                    </ul>
+                </div>
+        </main>
+        <footer class="fixed-bottom">
+            <div class="footer-content">
+                <p>Codersleague ©</p>
+                <div class="social-media justify-content-end">
+                    <a href="https://www.instagram.com/"><img src="/public/assets/icons/instagram.svg"
+                            alt="Instagram"></a>
+                    <a href="https://www.facebook.com/"><img src="/public/assets/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://twitter.com/"><img src="/public/assets/icons/twitter-x.svg" alt="TwitterX"></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 

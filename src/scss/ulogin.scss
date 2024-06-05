@@ -1,0 +1,51 @@
+// Variables
+$primary-color: #ff8000e9;
+$button-color: #0000ff;
+$button-padding: 5px 60px;
+$font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$gap: 30px;
+$margin-top-bottom: 150px;
+$login-box-height: 400px;
+$login-box-max-width: 400px;
+$login-box-border-radius: 16px;
+
+// Mixin para flexbox
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Estilos
+.login-box {
+  width: 100%;
+  max-width: $login-box-max-width;
+  height: $login-box-height;
+  border-radius: $login-box-border-radius;
+  background-color: $primary-color;
+  @include flex-center;
+  flex-direction: column;
+}
+
+.centered-container {
+  @include flex-center;
+  margin-top: $margin-top-bottom;
+  margin-bottom: $margin-top-bottom;
+}
+
+#login-content {
+  @include flex-center;
+  flex-direction: column;
+  gap: $gap;
+}
+
+#btn-login {
+  background-color: $button-color !important;
+  padding: $button-padding !important;
+  font-size: 20px;
+  font-family: $font-family;
+  overflow: hidden;
+  translate: 0 50%;
+  position: relative;
+  display: flexbox !important;
+}

@@ -1,0 +1,178 @@
+/*
+@import "./navbar.css";
+
+ * {
+  box-sizing: border-box;
+}
+
+.body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*linea adicionales*//*
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  background-color: #020001;
+}
+
+#pagina {
+  position: relative;
+  min-height: 100%;
+}
+
+#contenido {
+  padding-bottom:50px; 
+  /* este valor debe ser igual o mayor al alto del pie *//*
+}
+
+
+
+/* .main > div{
+background-color: #FF8000;
+} */
+/*
+.container-gr {
+  padding-bottom:50px; 
+
+    display: grid;
+    width: 90%;
+    /*height: 60vh;*//*
+    margin-top: 5%;
+    margin-left: 9%;
+    vertical-align: auto;
+    background-color: blue;
+    overflow: hidden;
+    /* height: fit-content;  *//*
+    height:fit-content;
+
+      /*vertical-padding  *//*
+    padding: 10px;
+    grid-column-gap: 25px;
+    grid-row-gap: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-template-areas: "grid11 grid21 grid31 grid41"
+    "grid12 grid22 grid32 grid42"
+    "grid13 grid23 grid33 grid43"
+    "grid14 grid24 grid34 grid44";
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    border-radius: 25px;
+	  font-size: 15px;
+
+    /* flex-wrap: wrap; */
+    /* overflow-y: scroll;   *//*
+    white-space: nowrap;  
+    grid-auto-flow: column;
+   }
+
+  .container-gr > div {
+
+    border: 1px solid #262424;
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .grid11 {
+    grid-area: grid11;
+  }
+
+  .grid21 {
+    grid-area: grid21;
+
+  }
+  .grid31 {
+    grid-area: grid31;
+
+  }
+  .grid41 {
+    grid-area: grid41;
+  }
+  .grid12 {
+    grid-area: grid12;
+  }
+  .grid22 {
+    grid-area: grid22;
+  }
+  .grid32 {
+    grid-area: grid32;
+  }
+  .grid42 {
+    grid-area: grid42;
+  }
+  .grid13 {
+    grid-area: grid13;
+  }
+  .grid23 {
+    grid-area: grid23;
+  }
+  .grid33 {
+    grid-area: grid33;
+  }
+  .grid43 {
+    grid-area: grid43;
+  }
+  .grid14 {
+    grid-area: grid14;
+  }
+  .grid24 {
+    grid-area: grid24;
+  }
+  .grid34 {
+    grid-area: grid34;
+  }
+  .grid44 {
+    grid-area: grid44;
+  }
+
+  .button_slide {
+    color: #fff;
+    border: 2px solid #FF8000;    
+    padding: 9px 18px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FF8000;
+    background-color: #FF8000;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    border-radius: 15px;
+  }
+
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #020001;
+  }
+
+  #outer {
+    display: grid;
+    width: 180px;
+    margin: 25px auto 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    grid-row-gap: 5px;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .btn-number {
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .team {
+    /*width: 120px;*//*
+    width: 10%vh;
+    height: 40%vw;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
