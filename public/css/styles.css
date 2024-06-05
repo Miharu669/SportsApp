@@ -1,4 +1,4 @@
-.main-container {
+.main-index-container {
   margin-top: 5vh;
   margin-bottom: 5vh;
   position: relative;
@@ -108,7 +108,8 @@ footer {
   margin-top: 10px;
 }
 .social-media a img {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
   width: 26px;
   height: 26px;
 }
@@ -151,7 +152,7 @@ label {
   width: 80%;
 }
 
-input[type=text],
+input[type="text"],
 select {
   color: black;
   width: 100%;
@@ -161,7 +162,7 @@ select {
   border-radius: 6px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 50%;
   background-color: black;
   color: white;
@@ -174,25 +175,13 @@ input[type=submit] {
   position: relative;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: white;
   color: black;
   transition: ease-in 0.08s;
 }
 
-body {
-  max-width: 1200px !important;
-  background-color: black !important;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 25%;
-}
-
-[class*=col-] {
+[class*="col-"] {
   margin-top: 10%;
 }
 
@@ -222,7 +211,7 @@ main {
 }
 
 /* For mobile phones: */
-[class*=col-] {
+[class*="col-"] {
   width: 100%;
 }
 

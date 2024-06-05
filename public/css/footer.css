@@ -1,4 +1,4 @@
-footer {
+/*footer {
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -43,7 +43,9 @@ footer {
 }
 
 /* Responsive */
-@media (min-width: 315px) {
+/*
+/@media (min-width: 315p
+{
   .footer-content {
     flex-direction: row;
     justify-content: space-between;
