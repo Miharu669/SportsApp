@@ -6,11 +6,4 @@
 @use "login";
 @use "body";
 @use "aside";
-
-@media only screen and (max-width: 767px) {
-  body {
-    background-image: url(../assets/images/Image20240521142723.jpg);
-  }
-}
-
-// holi //
+@use "champion";

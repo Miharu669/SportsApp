@@ -5,13 +5,6 @@
   top: 0 auto;
 }
 
-.teamsContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 25%;
-}
-
 #title {
   background-color: rgba(255, 128, 0, 0.9137254902);
   color: white;
@@ -55,15 +48,6 @@
   translate: 0 50%;
   position: absolute;
   display: flexbox !important;
-}
-
-body {
-  background-image: url(../assets/images/Image20240521142723.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
 }
 
 .navbar {
@@ -115,8 +99,7 @@ footer {
   margin-top: 10px;
 }
 .social-media a img {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
-    contrast(100%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
   width: 26px;
   height: 26px;
 }
@@ -139,56 +122,19 @@ footer {
     width: auto;
   }
 }
-aside {
-  background-color: #ff8000;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  align-content: center;
-  margin: 0;
-  padding: 30px;
-  width: 250px;
+body {
+  max-width: 1200px !important;
+  background-color: black !important;
 }
 
-form {
-  align-content: center;
-  position: static;
+.teamscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
 }
 
-label {
-  width: 80%;
-}
-
-input[type="text"],
-select {
-  color: black;
-  width: 100%;
-  padding: 1vh;
-  margin-bottom: 3vh;
-  border: 1px solid #dddddd;
-  border-radius: 6px;
-}
-
-input[type="submit"] {
-  width: 50%;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-left: 6vh;
-  margin-right: 6vh;
-  position: relative;
-}
-
-input[type="submit"]:hover {
-  background-color: white;
-  color: black;
-  transition: ease-in 0.08s;
-}
-
-[class*="col-"] {
+[class*=col-] {
   margin-top: 10%;
 }
 
@@ -218,7 +164,7 @@ input[type="submit"]:hover {
 }
 
 /* For mobile phones: */
-[class*="col-"] {
+[class*=col-] {
   width: 100%;
 }
 
@@ -300,10 +246,103 @@ input[type="submit"]:hover {
   display: flexbox !important;
 }
 
-@media only screen and (max-width: 767px) {
-  body {
-    background-image: url(../assets/images/Image20240521142723.jpg);
-  }
+.bodyImage {
+  background-image: url(/public/assets/images/Image20240521142723.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.bodyBlack {
+  background-color: black !important;
+}
+
+#bodyChampion {
+  background-image: url(/public/assets/images/1108585.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+aside {
+  background-color: #ff8000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  align-content: center;
+  margin: 0;
+  padding: 30px;
+  width: 250px;
+}
+aside .form2 {
+  align-content: center;
+  position: static;
+}
+aside label {
+  width: 80%;
+}
+aside input[type=text],
+aside select {
+  color: black;
+  width: 100%;
+  padding: 1vh;
+  margin-bottom: 3vh;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+aside input[type=submit] {
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 6vh;
+  margin-right: 6vh;
+  position: relative;
+}
+aside input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  transition: ease-in 0.08s;
+}
+
+#page6 {
+  background-color: rgba(0, 0, 0, 0.6666666667);
+  border: 10px solid #FFD700;
+  border-radius: 16px;
+  color: white;
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  margin: 0 auto;
+}
+
+#champion {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#champion p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

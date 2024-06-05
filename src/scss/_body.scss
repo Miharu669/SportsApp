@@ -1,5 +1,5 @@
 .bodyImage {
-  background-image: url(../assets/images/Image20240521142723.jpg);
+  background-image: url(/public/assets/images/Image20240521142723.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,10 +12,15 @@
 }
 
 #bodyChampion {
-  background-image: url(../assets/images/Image20240521142723.jpg);
+  background-image: url(/public/assets/images/1108585.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
 }
