@@ -5,6 +5,13 @@
   top: 0 auto;
 }
 
+.teamsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
 #title {
   background-color: rgba(255, 128, 0, 0.9137254902);
   color: white;

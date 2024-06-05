@@ -36,13 +36,17 @@
 
 }
   /* For mobile phones: */
-[class*="col-"] {
+/*
+/[class*="col-
+{
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .col-1 {
+  /*
+  /.c
+  {
     width: 8.33%;
   }
   .col-2 {
