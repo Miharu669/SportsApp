@@ -99,7 +99,8 @@ footer {
   margin-top: 10px;
 }
 .social-media a img {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
   width: 26px;
   height: 26px;
 }
@@ -134,7 +135,7 @@ body {
   margin-left: 25%;
 }
 
-[class*=col-] {
+[class*="col-"] {
   margin-top: 10%;
 }
 
@@ -164,7 +165,7 @@ body {
 }
 
 /* For mobile phones: */
-[class*=col-] {
+[class*="col-"] {
   width: 100%;
 }
 
@@ -247,7 +248,7 @@ body {
 }
 
 .bodyImage {
-  background-image: url(/public/assets/images/Image20240521142723.jpg);
+  background-image: url(./public/assets/images/Image20240521142723.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -260,7 +261,7 @@ body {
 }
 
 #bodyChampion {
-  background-image: url(/public/assets/images/1108585.jpg);
+  background-image: url(./public/assets/images/1108585.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -290,7 +291,7 @@ aside .form2 {
 aside label {
   width: 80%;
 }
-aside input[type=text],
+aside input[type="text"],
 aside select {
   color: black;
   width: 100%;
@@ -299,7 +300,7 @@ aside select {
   border: 1px solid #dddddd;
   border-radius: 6px;
 }
-aside input[type=submit] {
+aside input[type="submit"] {
   width: 50%;
   background-color: black;
   color: white;
@@ -311,7 +312,7 @@ aside input[type=submit] {
   margin-right: 6vh;
   position: relative;
 }
-aside input[type=submit]:hover {
+aside input[type="submit"]:hover {
   background-color: white;
   color: black;
   transition: ease-in 0.08s;
@@ -319,7 +320,7 @@ aside input[type=submit]:hover {
 
 #page6 {
   background-color: rgba(0, 0, 0, 0.6666666667);
-  border: 10px solid #FFD700;
+  border: 10px solid #ffd700;
   border-radius: 16px;
   color: white;
   width: 50%;
